@@ -6,9 +6,16 @@ body {
     color:navy;
 }
 
-input, button {
+.formItems input,  {
     padding: 10px;
     font-size: 30px;
     border-radius: 25px;
-    background-color: aliceblue;
+    
+}
+
+.formItens button {
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 25px;
+    background-color: rgb(255, 245, 194);
 }
