@@ -4,5 +4,6 @@ body {
 
 input, button {
     padding: 10px;
-    font-size: 50px;
+    font-size: 30px;
+    border-radius: 25px;
 }
