@@ -12,10 +12,10 @@ function startTimer() {
         clearInterval(countdownInterval);
     }
 
-    countdownInterval = setInterval(); {
+    countdownInterval = setInterval(() => {
         const minutesLeft = Math.floor(currentTime / 60);
         const secondsLeft = currentTime % 60;
-        console.log("Countdown: {minutesLeft}min {secondsLeft}sec");
+        console.log(`Countdown: {minutesLeft}min {secondsLeft}sec`);
 
         if (currentTime <= 0) {
             clearTnterval(countdownInterval);
@@ -23,7 +23,7 @@ function startTimer() {
         }
 
         currentTime--;
-    }
+    },1000);
 
 
 }
