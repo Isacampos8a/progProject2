@@ -1,3 +1,8 @@
-*{
+body {
     font-family: arial, helvetica, sans-serif;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 50px;
 }
