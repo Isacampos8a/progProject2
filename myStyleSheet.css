@@ -1,16 +1,16 @@
 *{
     background-color: blanchedalmond;
 }
+
 body {
     font-family: 'Times New Roman', Times, serif;
     color:navy;
 }
 
-.formItems input,  {
+.formItems input  {
     padding: 10px;
     font-size: 30px;
     border-radius: 25px;
-    
 }
 
 .formItens button {
