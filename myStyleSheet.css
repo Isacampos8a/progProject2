@@ -1,10 +1,23 @@
 *{
     background-color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .content {
-    font-family: 'Times New Roman', Times, serif;
-    color:navy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 3.em;
+    color: navy;
+}
+
+.formItems {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
