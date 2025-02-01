@@ -1,5 +1,9 @@
+*{
+    background-color: blanchedalmond;
+}
 body {
-    font-family: arial, helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    color:coral
 }
 
 input, button {
