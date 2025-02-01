@@ -19,11 +19,9 @@ function startTimer() {
 
         if (currentTime <= 0) {
             clearTnterval(countdownInterval);
-            alert("Time's Up! It has reached peak egg-cellence")
-            document.getElementById("timerDisplay").textContent = `Times's Up!`
-
+            alert("Time's Up! It has reached peak egg-cellence");
+            document.getElementById("timerDisplay").textContent = `Times's Up!`;
+        }    
         currentTime--;
-    },1000); //updates every second
-
-
+    }, 1000); //updates every second
 }
