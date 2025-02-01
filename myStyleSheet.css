@@ -2,9 +2,11 @@
     background-color: blanchedalmond;
 }
 
-body {
+.content {
     font-family: 'Times New Roman', Times, serif;
     color:navy;
+    justify-content: center;
+    align-items: center;
 }
 
 .formItems input  {
