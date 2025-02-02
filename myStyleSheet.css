@@ -16,11 +16,6 @@
     color: navy;
 }
 
-img {
-    width: "200";
-    justify-content: center;
-    align-items: center;
-}
 
 .formItems {
     display: flex;
