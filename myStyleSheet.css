@@ -1,5 +1,5 @@
-*{
-    background-color: rgb(255, 237,201);
+body {
+    background-color: rgb(255, 237, 201);
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -12,10 +12,9 @@
 }
 
 .main-title {
-    font-size: 3.em;
+    font-size: 3em;
     color: navy;
 }
-
 
 .formItems {
     display: flex;
