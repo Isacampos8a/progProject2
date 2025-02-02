@@ -18,7 +18,7 @@ function startTimer() {
         document.getElementById("timerDisplay").textContent = `Time Left: ${minutesLeft} min ${secondsLeft} sec`
 
         if (currentTime <= 0) {
-            clearTnterval(countdownInterval);
+            clearInterval(countdownInterval);
             alert("Time's Up! It has reached peak egg-cellence");
             document.getElementById("timerDisplay").textContent = `Times's Up!`;
         }    
