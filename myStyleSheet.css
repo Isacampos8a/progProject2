@@ -36,7 +36,7 @@ body {
 }
 
 .formItems button:active {
-    background-color: rgb(255, 162, 126);
+    background-color: rgb(255, 162, 50);
 }
 
 .formItems button:hover {
