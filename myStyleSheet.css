@@ -32,5 +32,9 @@ body {
     padding: 10px;
     font-size: 30px;
     border-radius: 25px;
-    background-color: rgb(255, 245, 194);
+    background-color: rgb(255, 203, 126);
+}
+
+.formItems button:active {
+    background-color: rgb(255, 162, 126);
 }
