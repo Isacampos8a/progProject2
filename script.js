@@ -17,10 +17,9 @@ function startTimer() {
         const secondsLeft = currentTime % 60;
         document.getElementById("timerDisplay").textContent = `Time Left: ${minutesLeft} min ${secondsLeft} sec`
 
-        if (currentTime <= 0) {
+        if (currentTime == 0) {
             clearInterval(countdownInterval);
-            alert("Time's Up! It has reached peak egg-cellence");
-            document.getElementById("timerDisplay").textContent = `Times's Up!`;
+            document.getElementById("timerDisplay").textContent = `"Time's Up! It has reached peak egg-cellence"`;
         }    
         currentTime--;
     }, 1000); //updates every second
